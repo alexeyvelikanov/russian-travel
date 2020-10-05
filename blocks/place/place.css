@@ -4,7 +4,7 @@
     grid-template-rows: auto minmax(460px);
     max-width: 100%;
     margin: 0 auto;
-    margin-bottom: 80px;  
+    margin-bottom: 80px;
     row-gap: 48px;
     column-gap: 40px;
 }
