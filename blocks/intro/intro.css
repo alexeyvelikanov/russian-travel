@@ -1,0 +1,29 @@
+.intro {
+    display: grid;
+    grid-template-columns: 1fr;
+    padding-top: 92px;
+    max-width: 690px;
+    margin-left: 148px;
+ }
+
+ @media screen and (max-width: 1279px) {
+    .intro {
+        margin-left: 48px;
+    }
+}
+
+@media screen and (max-width: 1023px) {
+    .intro { 
+        padding-top: 88px;
+        max-width: 720px;
+        margin-left: 24px;
+    }
+}
+
+@media screen and (max-width: 767px) {
+    .intro {
+        max-width: 288px;
+        padding-top: 64px;
+        margin: 0 auto; 
+    }
+}

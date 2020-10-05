@@ -1,0 +1,11 @@
+.header__li{
+    margin-right: 18px;
+}
+
+.header__li:first-child {
+    text-decoration-line: underline;
+}
+
+.header__li:last-child {
+    margin-right: 0px;
+}
