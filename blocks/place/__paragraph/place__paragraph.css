@@ -13,7 +13,6 @@
     .place__paragraph {
         font-size: 16px;
         line-height:26px;
-        max-width: 352px;
     }
 }
 
@@ -21,6 +20,5 @@
     .place__paragraph {
         font-size: 16px;
         line-height: 26px;
-        max-width: 288px;
     }
 }

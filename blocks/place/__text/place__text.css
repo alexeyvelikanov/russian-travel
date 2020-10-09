@@ -1,7 +1,5 @@
 .place__text {
     align-self: start;
-    font-style: normal;
-    font-family: 'Inter';
     font-weight: normal;
     font-size: 18px;
     line-height: 163%;
@@ -10,6 +8,7 @@
 
 @media screen and (max-width: 767px) {
     .place__text {
+        width: calc(100% - 2*16px);
         padding: 0;
         align-items: center;
         margin: 0 auto;
