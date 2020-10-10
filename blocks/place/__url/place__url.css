@@ -1,4 +1,6 @@
 .place__url {
+    display: flex;
+    flex-direction: column;
     align-self: end;
 }
 

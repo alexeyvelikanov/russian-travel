@@ -5,8 +5,14 @@
     line-height: 28px;
     color: #FFFFFF;
     text-align: right;
-    text-decoration: none; 
+    text-decoration: none;
+    transition: opacity 0.5s ease; 
 }
+
+.header__link:hover {
+    opacity: 0.8;
+}
+
 
 @media screen and (max-width: 767px) {
     .header__link {
@@ -14,3 +20,4 @@
         line-height: 20px;
     }
 }
+
